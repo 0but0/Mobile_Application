@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Midterm</string>
+    <string name="NOTI"><b><font size="25">Notifications</font></b></string>
+    <string name="new_noti"><b>New</b></string>
+    <string name="old_noti"><b>Earlier</b></string>
+
+    <string name="noti1"><b>USTH EcoClub</b> shared <b>USTH</b>\'s post.\n<font size="10" fgcolor="#FF8E8E93">43 minutes ago</font></string>
+    <string name="noti2"><b>Hong Van</b> has birthday today.\n<font size="10" fgcolor="#FF8E8E93">45 minutes ago</font></string>
+    <string name="noti3"><b>University of Science and Technology of Hanoi</b> shared <b>Prof.John</b>\'s post.\n<font size="10" fgcolor="#FF8E8E93">56 minutes ago</font></string>
+    <string name="noti4"><b>Hong Van</b> accepted your friend request.\n<font size="10" fgcolor="#FF8E8E93">Yesterday at 23:10</font></string>
+    <string name="noti5"><b>USTH EcoClub</b> shared <b>University of Science and Technology of Hanoi</b>\'s post.\n<font size="10" fgcolor="#FF8E8E93">Yesterday at 20:05</font></string>
+    <string name="noti6"><b>University of Science and Technology of Hanoi</b> had birthday yesterday.\n<font size="10" fgcolor="#FF8E8E93">Yesterday at 08:41</font></string>
+    <string name="noti7"><b>USTH EcoClub</b> replied to a comment that you\'re tagged in.\n<font size="10" fgcolor="#FF8E8E93">Oct 4 at 07:18</font></string>
+    <string name="noti8"><b>USTH EcoClub</b> commented on your post.\n<font size="10" fgcolor="#FF8E8E93">Oct 4 at 00:21</font></string>
+    <string name="noti9"><b>USTH EcoClub</b>\'s birthday was on October 03.\n<font size="10" fgcolor="#FF8E8E93">Oct 3 at 08:00</font></string>
+    <string name="noti10"><b>University of Science and Technology of Hanoi</b> shared <b>Prof.John</b>\'s post.\n<font size="10" fgcolor="#FF8E8E93">Sep 30 at 19:25</font></string>
+
+
+
+</resources>
