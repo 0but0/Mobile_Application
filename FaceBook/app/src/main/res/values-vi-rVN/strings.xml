@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FaceBook</string>
+    <string name="add_photo">Đã thêm một ảnh mới</string>
+    <string name="New1a">1 ngày trước. Hà Nội, Việt Nam</string>
+    <string name="New1e">11k Bình Luận - 6.5k Chia Sẻ</string>
+    <string name="New1f">Bình Luận</string>
+    <string name="New1g">Chia Sẻ</string>
+    <string name="New1h">Thích</string>
+    <string name="New2a">"NPha. 18 giờ "</string>
+    <string name="New2h">50 Bình Luận - 5 Chia Sẻ</string>
+    <string name="New3a">21 giờ</string>
+    <string name="New3c">100 Bình Luận - 20k Chia Sẻ</string>
+    <string name="New4a">23 giờ</string>
+    <string name="New4e">100k Bình Luận - 150k Chia Sẻ</string>
+
+    <string name="NOTI"><b><font size="25">Thông Báo</font></b></string>
+    <string name="new_noti"><b>Mới</b></string>
+    <string name="old_noti"><b>Trước đó</b></string>
+
+    <string name="noti1"><b>USTH EcoClub</b> đã chia sẻ bài viết của <b>USTH</b>.\n<font fgcolor="#FF8E8E93" size="10">43 phút trước</font></string>
+    <string name="noti2">Hôm nay là sinh nhật của <b>Hong Van</b>.\n<font fgcolor="#FF8E8E93" size="10">45 phút trước</font></string>
+    <string name="noti3"><b>University of Science and Technology of Hanoi</b> đã chia sẻ bài viết của <b>Prof.John</b>.\n<font fgcolor="#FF8E8E93" size="10">56 phút trước</font></string>
+    <string name="noti4"><b>Hong Van</b> đã chấp nhận lời mời kết bạn của bạn.\n<font fgcolor="#FF8E8E93" size="10">Hôm qua lúc 23:10</font></string>
+    <string name="noti5"><b>USTH EcoClub</b> đã chia sẻ bài viết của <b>University of Science and Technology of Hanoi</b>.\n<font fgcolor="#FF8E8E93" size="10">Hôm qua lúc 20:05</font></string>
+    <string name="noti6"><b>University of Science and Technology of Hanoi</b> có sinh nhật vào hôm qua.\n<font fgcolor="#FF8E8E93" size="10">Hôm qua lúc 08:41</font></string>
+    <string name="noti7"><b>USTH EcoClub</b> đã trả lời một bình luận mà bạn được gắn thẻ.\n<font fgcolor="#FF8E8E93" size="10">4 thg 10 lúc 07:18</font></string>
+    <string name="noti8"><b>USTH EcoClub</b> đã bình luận về bài viết của bạn.\n<font fgcolor="#FF8E8E93" size="10">4 thg 10 lúc 00:21</font></string>
+    <string name="noti9"><b>USTH EcoClub</b>có sinh nhật vào 03 tháng 10.\n<font fgcolor="#FF8E8E93" size="10">3 thg 10 lúc 08:00</font></string>
+    <string name="noti10"><b>University of Science and Technology of Hanoi</b> đã chia sẻ bài viết của <b>Prof.John</b>.\n<font fgcolor="#FF8E8E93" size="10">30 thg 9 lúc 19:25</font></string>
+
+    <string name="Dating">Hẹn Hò</string>
+    <string name="Friends">Bạn Bè</string>
+    <string name="Groups">Nhóm</string>
+    <string name="Mem">Kỉ Niệm</string>
+    <string name="Market">Chợ</string>
+    <string name="Saved">Đã lưu</string>
+    <string name="Videos">Video trên Watch</string>
+    <string name="Page">Trang</string>
+    <string name="Events">Sự kiện</string>
+    <string name="User">Người dùng</string>
+    <string name="Seeprofile">Xem hồ sơ</string>
+    <string name="Jobs">Công Việc</string>
+    <string name="out">Đăng Xuất</string>
+    <string name="user_name">Người dùng</string>
+    <string name="edit_bio">Chỉnh sửa thông tin</string>
+    <string name="add_story">Thêm vào tin</string>
+    <string name="edit_profile">Sửa hồ sơ</string>
+
+    <string name="university">Đã học tại <b>University of Science and Technology of Hanoi</b></string>
+    <string name="high_school">Từng học tại <b>Hanoi High School</b></string>
+    <string name="live">Sống tại <b>Hanoi, Vietnam</b></string>
+    <string name="from">Đến từ <b>Hanoi, Vietnam</b></string>
+
+    <string name="detail">Xem thêm</string>
+    <string name="edit_detail">Sửa chi tiết công khai</string>
+    <string name="face1a">2 giờ, New York, Mỹ</string>
+    <string name="face1e">10k Bình Luận - 3k Chia Sẻ</string>
+    <string name="face2a">2 giờ</string>
+    <string name="face2e">106 Bình Luận - 30 Chia Sẻ</string>
+    <string name="face3a">15 phút</string>
+    <string name="face3e">200 Bình Luận - 40 Chia Sẻ</string>
+    <string name="face4a">20 giờ</string>
+    <string name="WatchMore">Xem thêm...</string>
+    <string name="face4e">1.2k Bình Luận - 100 Chia Sẻ</string>
+    <string name="mess">Ứng dụng Messenger sẽ khả dụng trong tương lai</string>
+    <string name="search">Tìm kiếm...</string>
+</resources>

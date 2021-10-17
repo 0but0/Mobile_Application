@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/FaceBook/app/src/main/res/drawable/ic_tab_menu.xml" value="0.290625" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/FaceBook/app/src/main/res/drawable/ic_tab_newfeed.xml" value="0.290625" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/FaceBook/app/src/main/res/drawable/ic_tab_notification.xml" value="0.290625" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/FaceBook/app/src/main/res/drawable/ic_tab_pro.xml" value="0.290625" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/FaceBook/app/src/main/res/drawable/ic_tab_watch.xml" value="0.290625" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/FaceBook/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/FaceBook/app/src/main/res/layout/activity_messand_sear.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/FaceBook/app/src/main/res/layout/custom_tab.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/FaceBook/app/src/main/res/layout/fragment_menu.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/FaceBook/app/src/main/res/layout/fragment_new_freed.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/FaceBook/app/src/main/res/layout/fragment_notification.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/FaceBook/app/src/main/res/layout/fragment_profile_face.xml" value="0.21545380212591986" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/FaceBook/app/src/main/res/layout/fragment_watch_face.xml" value="0.4" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/FaceBook/app/src/main/res/menu/layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/dmx/AndroidStudioProjects/FaceBook/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/dmx/AndroidStudioProjects/FaceBook/app/src/main/res/layout/activity_messand_sear.xml" value="0.1" />
+        <entry key="..\:/Users/dmx/AndroidStudioProjects/FaceBook/app/src/main/res/layout/custom_tab.xml" value="0.1" />
+        <entry key="..\:/Users/dmx/AndroidStudioProjects/FaceBook/app/src/main/res/layout/fragment_menu.xml" value="0.18" />
+        <entry key="..\:/Users/dmx/AndroidStudioProjects/FaceBook/app/src/main/res/layout/fragment_new_freed.xml" value="0.25" />
+        <entry key="..\:/Users/dmx/AndroidStudioProjects/FaceBook/app/src/main/res/layout/fragment_notification.xml" value="0.1" />
+        <entry key="..\:/Users/dmx/AndroidStudioProjects/FaceBook/app/src/main/res/layout/fragment_profile_face.xml" value="0.22" />
+        <entry key="..\:/Users/dmx/AndroidStudioProjects/FaceBook/app/src/main/res/layout/fragment_watch_face.xml" value="0.22" />
+        <entry key="..\:/Users/dmx/AndroidStudioProjects/FaceBook/app/src/main/res/menu/layout.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
