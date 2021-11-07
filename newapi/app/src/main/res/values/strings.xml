@@ -1,0 +1,180 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Facebook</string>
+    <string name="google_maps_key" translatable="false" />
+
+    <!--TODO: Newfeed Facebook 1-->
+    <string name="New1" translatable="false">NXB Kim Dong </string>
+    <string name="add_photo">added a new photo</string>
+    <string name="New1a">1d. Hanoi, VietNam.</string>
+    <string name="New1b" translatable="false">[KIM DONG COMICS TOURAMENT]</string>
+    <string name="New1c" translatable="false"> * Season 2/Vòng 3/Trận 6 * </string>
+    <string name="New1d" translatable="false">
+        *Trận đấu có kèm Give-ây Figure!...See More
+    </string>
+    <string name="New1e">11k Comments - 6.5k Shares</string>
+    <string name="New1f">Comment</string>
+    <string name="New1g">Share</string>
+    <string name="New1h">Like</string>
+
+    <!--TODO: Newfeed Facebook 2-->
+    <string name="New2" translatable="false">Phòng Trọ Tây Hồ, Ba Đình, Hoàn Kiếm, Hà Nội - TC.Renting</string>
+    <string name="New2a">NPha. 18h</string>
+    <string name="New2b" translatable="false"> 175 lạc long quân 2,4-2,7tr full đồ khép kín tuỳ phòng đh nl máy giặt</string>
+    <string name="New2c" translatable="false"> 457 xuân đỉnh 2,3tr fulll đồ ban công rộng</string>
+    <string name="New2d" translatable="false">68 cầu giấy 2,7tr full đồ</string>
+    <string name="New2e" translatable="false">TỰ DO , KO CHUNG CHỦ</string>
+    <string name="New2f" translatable="false">GOỊ THEO SỐ : 0981235472</string>
+    <string name="New2h">50 Comments - 5 Shares</string>
+
+    <!--TODO: Newfeed Facebook 3-->
+    <string name="New3" translatable="false">HLV Park Hang Seo - Đội Tuyển Việt Nam</string>
+    <string name="New3b" translatable="false">Việt Nam tiến lên</string>
+    <string name="New3a">21H</string>
+    <string name="New3c">100 Comments - 20k Shares</string>
+
+    <!--    TODO: Newfeed Facebook 4-->
+    <string name="New4" translatable="false">An Ninh Hôm Nay</string>
+    <string name="New4a">23 H</string>
+    <string name="New4b" translatable="false">HỒN THIÊNG ĐANG TÁI SINH</string>
+
+    <string name="New4c" translatable="false"> Nhà thơ Tố Hữu nói lên tâm trạng của nhân dân Việt Nam thương tiếc Bác cũng như ông trời thương tiếc Bác vô hạn. Nhân dân Việt Nam đời đời ghi nhớ công ơn của Bác.</string>
+    <string name="New4d" translatable="false"> Chủ Tịch Hồ Chí Minh vĩ đại sống mãi trong sự nghiệp của chúng ta.</string>
+    <string name="New4e">100k Comments - 150k Shares</string>
+
+    <!-- TODO: Motification       -->
+    <string name="NOTI"><b><font size="25">Notifications</font></b></string>
+    <string name="new_noti"><b>New</b></string>
+    <string name="old_noti"><b>Earlier</b></string>
+
+    <string name="noti1"><b>USTH EcoClub</b> shared <b>USTH</b>\'s post.\n<font fgcolor="#FF8E8E93" size="10">43 minutes ago</font></string>
+    <string name="noti2"><b>Hong Van</b> has birthday today.\n<font fgcolor="#FF8E8E93" size="10">45 minutes ago</font></string>
+    <string name="noti3"><b>University of Science and Technology of Hanoi</b> shared <b>Prof.John</b>\'s post.\n<font fgcolor="#FF8E8E93" size="10">56 minutes ago</font></string>
+    <string name="noti4"><b>Hong Van</b> accepted your friend request.\n<font fgcolor="#FF8E8E93" size="10">Yesterday at 23:10</font></string>
+    <string name="noti5"><b>USTH EcoClub</b> shared <b>University of Science and Technology of Hanoi</b>\'s post.\n<font fgcolor="#FF8E8E93" size="10">Yesterday at 20:05</font></string>
+    <string name="noti6"><b>University of Science and Technology of Hanoi</b> had birthday yesterday.\n<font fgcolor="#FF8E8E93" size="10">Yesterday at 08:41</font></string>
+    <string name="noti7"><b>USTH EcoClub</b> replied to a comment that you\'re tagged in.\n<font fgcolor="#FF8E8E93" size="10">Oct 4 at 07:18</font></string>
+    <string name="noti8"><b>USTH EcoClub</b> commented on your post.\n<font fgcolor="#FF8E8E93" size="10">Oct 4 at 00:21</font></string>
+    <string name="noti9"><b>USTH EcoClub</b>\'s birthday was on October 03.\n<font fgcolor="#FF8E8E93" size="10">Oct 3 at 08:00</font></string>
+    <string name="noti10"><b>University of Science and Technology of Hanoi</b> shared <b>Prof.John</b>\'s post.\n<font fgcolor="#FF8E8E93" size="10">Sep 30 at 19:25</font></string>
+
+    <!--     TODO: Menu -->
+
+    <string name="Menu" translatable="false">Menu</string>
+    <string name="Market">Marketplace</string>
+    <string name="Dating">Dating</string>
+    <string name="Friends">Friends</string>
+    <string name="Groups">Groups</string>
+    <string name="Mem">Memories</string>
+    <string name="Saved">Saved</string>
+    <string name="Videos">Videos on Watch</string>
+    <string name="Page">Pages</string>
+    <string name="Events">Events</string>
+    <string name="User">User Name</string>
+    <string name="Seeprofile">See your profile</string>
+    <string name="Jobs">Jobs</string>
+    <string name="out">Log Out</string>
+
+
+    <!--      TODO: Profile -->
+
+    <string name="user_name">User Name</string>
+    <string name="edit_bio">Edit Bio</string>
+    <string name="add_story">Add to Story</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="university">Studied at <b>University of Science and Technology of Hanoi</b></string>
+    <string name="high_school">Studied at <b>Hanoi High School</b></string>
+    <string name="live">Lives in <b>Hanoi, Vietnam</b></string>
+    <string name="from">From <b>Hanoi, Vietnam</b></string>
+    <string name="detail">See more detail about info</string>
+    <string name="edit_detail">Edit Public Detail</string>
+
+
+    <!-- TODO: Facebook watch1 -->
+    <string name="WATCH" translatable="false"><b><font size="25">Watch</font></b></string>
+    <string name="face1" translatable="false">Little Mix </string>
+    <string name="face1a">2h, New York, USA</string>
+    <string name="face1b" translatable="false">#10YearsOfLittleMix #LittleMix #SecretLoveSong</string>
+    <string name="face1c" translatable="false">Little Mix - Secret Love Song (Official Video) ft. Jason Derulo </string>
+
+    <string name="face1e">10k Comments - 3k Shares</string>
+
+
+    <!-- TODO: Facebook watch2 -->
+    <string name="face2" translatable="false">VETV7 ESPORTS </string>
+    <string name="face2a">2h</string>
+    <string name="face2b" translatable="false">T1 with 100 thieves #VCS #VETV7 #LMHT"</string>
+    <string name="face2c" translatable="false">Highlights 100 vs T1 [Vòng Bảng][CKTG 2021][14.10.2021] </string>
+
+    <string name="face2e">106 Comments - 30 Shares</string>
+
+
+    <!-- TODO: Facebook watch3 -->
+    <string name="face3" translatable="false">Phê Phim </string>
+    <string name="face3a">15 minutes</string>
+    <string name="face3b" translatable="false">Review phim ZACK SNYDER JUSTICE LEAGUE </string>
+    <string name="face3c" translatable="false">#RestoreTheSnyderVerse </string>
+
+    <string name="face3e">200 Comments - 40 Shares</string>
+
+
+    <!-- TODO: Facebook watch4 -->
+    <string name="face4" translatable="false">Hà Nội Phố </string>
+    <string name="face4a">20h</string>
+    <string name="face4b" translatable="false">Hanoi Tourism</string>
+    <string name="face4c" translatable="false">#HaNoiPho </string>
+    <string name="WatchMore"> Watch more....</string>
+    <string name="face4e">1.2k Comments - 100 Shares</string>
+
+    <!-- TODO: Messenger -->
+    <string name="mess">Messenger will be available in the future</string>
+    <string name="search" tools:ignore="TypographyEllipsis">Searching...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="like" translatable="false">like</string>
+    <string name="comment" translatable="false">Comment</string>
+    <string name="share" translatable="false">Share</string>
+    <!--    Login and Registration-->
+    <string name="Email" translatable="false">Email</string>
+    <string name="Pass" translatable="false">Password</string>
+    <string name="cPass" translatable="false">Confirm Password</string>
+    <string name="Regis" translatable="false">Register</string>
+    <string name="Login" translatable="false">Login</string>
+
+    <!--    COMMENTS-->
+    <string name="t1c1" translatable="false"><b>Adam</b> \n<font size="15">Wowww!! Stunning news.</font></string>
+    <string name="t1c2" translatable="false"><b>Eva</b> \n<font size="15">I love this page.</font></string>
+    <string name="t1c3" translatable="false"><b>Coconut</b> \n<font size="15">The world is changing sooo fast.</font></string>
+    <string name="t1c4" translatable="false"><b>Pineapple</b> \n<font size="15">Hmmmmmm.</font></string>
+    <string name="t1c5" translatable="false"><b>Watermelon</b> \n<font size="15">Up-to-date.</font></string>
+
+    <string name="t2c1" translatable="false"><b>USTH</b> \n<font size="15">Keep up the good work.</font></string>
+    <string name="t2c2" translatable="false"><b>Hong Van</b> \n<font size="15">Love comics so much.</font></string>
+    <string name="t2c3" translatable="false"><b>Boy nhiều tiền</b> \n<font size="15">Mai phải đi mua ngay mới được.</font></string>
+    <string name="t2c4" translatable="false"><b>AloLoa</b> \n<font size="15">Quá là tuyệt vời.</font></string>
+    <string name="t2c5" translatable="false"><b>Internet</b> \n<font size="15">Cbi lấy tiền học đi mua hehe.</font></string>
+
+    <string name="t3" translatable="false"><b>Phòng Trọ Tây Hồ, Ba Đình, Hoàn Kiếm, Hà Nội - TC.Renting</b> \n<font size="15">Up!.</font></string>
+
+    <string name="t4c1" translatable="false"><b>Black Adam</b> \n<font size="15">Keep up the good work!!!</font></string>
+    <string name="t4c2" translatable="false"><b>Hong Van</b> \n<font size="15">Việt Nam cố lênnn.</font></string>
+    <string name="t4c3" translatable="false"><b>Boy nhiều tiền</b> \n<font size="15">Thắng phải party ngay.</font></string>
+    <string name="t4c4" translatable="false"><b>Wibu</b> \n<font size="15">Quá là tuyệt vời!!!</font></string>
+    <string name="t4c5" translatable="false"><b>USTH</b> \n<font size="15">Việt Nam cố lênnn.</font></string>
+
+    <string name="t5c1" translatable="false"><b>USTH EcoClub</b> \n<font size="15">Chủ tịch Hồ Chí Minh vĩ đại.</font></string>
+    <string name="t5c2" translatable="false"><b>Hong Van</b> \n<font size="15">Những vần thơ thật bay bổng.</font></string>
+    <string name="t5c3" translatable="false"><b>CNN</b> \n<font size="15">RESPECT!!!</font></string>
+    <string name="t5c4" translatable="false"><b>Lucky</b> \n<font size="15">What a great nation, a great leader</font></string>
+    <string name="t5c5" translatable="false"><b>USTH</b> \n<font size="15">Mãi nhớ ơn Bác.</font></string>
+
+    <!--    NOTIFICATION DETAILS-->
+    <string name="detail1" translatable="false">Chương trình học bổng France Excellence của Đại sứ quán Pháp tại Việt Nam là một trong những học bổng danh giá thường niên của chính phủ Pháp dành cho các sinh viên đến học tập và nghiên cứu tại Pháp. Đây cũng là một trong những học bổng có giá trị cao mà nhiều sinh viên hướng tới cho bậc học thạc sĩ và tiến sĩ.</string>
+    <string name="detail2" translatable="false">I had a great oppotunity to work with the Vietnam France University in HaNoi. Love this so muchh.</string>
+    <string name="detail3" translatable="false">I cannot wait to go to school. Love this so muchh.</string>
+    <string name="com1" translatable="false"><b>Pineapple</b> \n<font size="15"><b>User Name</b> Hmmmmmm.</font></string>
+    <string name="com2" translatable="false"><b>USTH EcoClub</b> \n<font size="15"><b>Pineapple</b> HaHaHa!!!</font></string>
+    <string name="com3" translatable="false"><b>User Name</b> \n<font size="10">Oct 4</font></string>
+
+
+</resources>

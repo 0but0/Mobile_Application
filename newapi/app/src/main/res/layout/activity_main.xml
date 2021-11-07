@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    tools:context=".MainActivity">
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:tabMode="fixed"
+            app:tabGravity="fill" />
+
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity">-->
+
+<!--    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout-->
+<!--        android:id="@+id/swipe_refresh_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginBottom="60dp">-->
+
+<!--        <androidx.core.widget.NestedScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            tools:ignore="MissingConstraints">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10px"-->
+<!--                android:layout_marginRight="10px"-->
+<!--                android:layout_marginBottom="10px"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentLeft="true"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="50dp"-->
+<!--                            android:layout_height="50dp"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:src="@drawable/img1"-->
+<!--                            android:contentDescription="TODO" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="70dp"-->
+<!--                            android:layout_marginTop="15dp"-->
+<!--                            android:text="CNN News"-->
+<!--                            android:textSize="50px"-->
+<!--                            android:textStyle="bold" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="130dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="70dp"-->
+<!--                            android:layout_marginTop="45dp"-->
+<!--                            android:text="USA"-->
+<!--                            android:textSize="10dp"-->
+<!--                            android:textStyle="italic" />-->
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentLeft="true"-->
+<!--                        android:layout_marginTop="22dp"-->
+<!--                        android:orientation="vertical">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="100dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="100px"-->
+<!--                            android:text="shared post  "-->
+<!--                            android:textSize="12dp"-->
+<!--                            android:textStyle="bold" />-->
+<!--                    </RelativeLayout>-->
+<!--                </LinearLayout>-->
+
+<!--                <androidx.recyclerview.widget.RecyclerView-->
+<!--                    android:id="@+id/recycleview"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_marginRight="5dp"-->
+<!--                    android:padding="10px"-->
+<!--                    android:scrollbars="horizontal">-->
+
+<!--                </androidx.recyclerview.widget.RecyclerView>-->
+<!--                &lt;!&ndash;           <HorizontalScrollView&ndash;&gt;-->
+<!--                &lt;!&ndash;               android:layout_width="match_parent"&ndash;&gt;-->
+<!--                &lt;!&ndash;               android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                &lt;!&ndash;               android:id="@+id/HorizontalView"&ndash;&gt;-->
+<!--                &lt;!&ndash;               android:scrollbars="horizontal"&ndash;&gt;-->
+<!--                &lt;!&ndash;               android:layout_alignParentTop="true"&ndash;&gt;-->
+<!--                &lt;!&ndash;               android:layout_centerHorizontal="true">&ndash;&gt;-->
+
+<!--                &lt;!&ndash;           </HorizontalScrollView>&ndash;&gt;-->
+<!--                &lt;!&ndash;           Todo: layout2&ndash;&gt;-->
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="13dp"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="20dp"-->
+<!--                        android:layout_height="20dp"-->
+<!--                        android:layout_marginLeft="8dp"-->
+<!--                        android:src="@drawable/newlike_comment" />-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="20dp"-->
+<!--                        android:layout_height="20dp"-->
+<!--                        android:layout_marginLeft="25dp"-->
+<!--                        android:src="@drawable/newlove" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="50dp"-->
+<!--                        android:text="4.4K" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentRight="true"-->
+<!--                        android:text="@string/New1e" />-->
+
+<!--                </RelativeLayout>-->
+<!--                &lt;!&ndash;           Comment&ndash;&gt;-->
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:paddingLeft="5dp"-->
+<!--                    android:paddingRight="5dp">-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button1"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_alignParentLeft="true"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@null"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/likes"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="@string/like"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        app:iconPadding="5dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button2"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/ic_stat_name"-->
+<!--                        android:paddingLeft="10dp"-->
+<!--                        android:text="@string/comment"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:visibility="visible"-->
+<!--                        app:iconPadding="2dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+<!--                    <Button-->
+<!--                        android:id="@+id/button3"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_alignParentRight="true"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/ic_share_name"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="@string/share"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        app:iconPadding="5dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--                </RelativeLayout>-->
+
+<!--                &lt;!&ndash;          TODO: layout2 &ndash;&gt;-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:orientation="horizontal">-->
+<!--                    &lt;!&ndash;-           Header                &ndash;&gt;-->
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentLeft="true"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="50dp"-->
+<!--                            android:layout_height="50dp"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:src="@drawable/newnxb_kimdong" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="55dp"-->
+<!--                            android:layout_marginTop="15dp"-->
+<!--                            android:text="@string/New1"-->
+<!--                            android:textSize="50px"-->
+<!--                            android:textStyle="bold" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="130dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="55dp"-->
+<!--                            android:layout_marginTop="45dp"-->
+<!--                            android:text="@string/New1a"-->
+<!--                            android:textSize="8dp"-->
+<!--                            android:textStyle="italic" />-->
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentLeft="true"-->
+<!--                        android:layout_marginTop="22dp"-->
+<!--                        android:orientation="vertical">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="10dp"-->
+<!--                            android:layout_height="10dp"-->
+<!--                            android:layout_centerVertical="true"-->
+<!--                            android:src="@drawable/newdautichxanh" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="250dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="12dp"-->
+<!--                            android:text="@string/add_photo"-->
+<!--                            android:textSize="10dp" />-->
+<!--                    </RelativeLayout>-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_alignParentTop="true"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentTop="true"-->
+<!--                        android:layout_marginTop="15dp"-->
+<!--                        android:orientation="vertical">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:text="@string/New1b" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:layout_marginTop="20dp"-->
+<!--                            android:text="@string/New1c" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:layout_marginTop="40dp"-->
+<!--                            android:text="@string/New1d" />-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="70dp"-->
+<!--                            android:src="@drawable/newnxb_kimdong_image" />-->
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="13dp"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="20dp"-->
+<!--                            android:layout_height="20dp"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:src="@drawable/newlike_comment" />-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="20dp"-->
+<!--                            android:layout_height="20dp"-->
+<!--                            android:layout_marginLeft="25dp"-->
+<!--                            android:src="@drawable/newlove" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="50dp"-->
+<!--                            android:text="4.4K" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:text="@string/New1e" />-->
+
+<!--                    </RelativeLayout>-->
+<!--                </LinearLayout>-->
+
+<!--                &lt;!&ndash;      TODO:     comment&ndash;&gt;-->
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:paddingLeft="5dp"-->
+<!--                    android:paddingRight="5dp">-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button4"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_alignParentLeft="true"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@null"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/likes"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="like"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        app:iconPadding="5dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button5"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/ic_stat_name"-->
+<!--                        android:paddingLeft="10dp"-->
+<!--                        android:text="Comment"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:visibility="visible"-->
+<!--                        app:iconPadding="2dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button6"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_alignParentRight="true"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/ic_share_name"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Share"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        app:iconPadding="5dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--                </RelativeLayout>-->
+
+<!--                &lt;!&ndash; TODO: Update blank fragment layout 3 &ndash;&gt;-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentLeft="true"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="50dp"-->
+<!--                            android:layout_height="60dp"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:src="@drawable/newlogo2" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="55dp"-->
+<!--                            android:layout_marginTop="15dp"-->
+<!--                            android:text="@string/New2"-->
+<!--                            android:textSize="40px"-->
+<!--                            android:textStyle="bold" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="130dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="55dp"-->
+<!--                            android:layout_marginTop="50dp"-->
+<!--                            android:text="@string/New2a"-->
+<!--                            android:textSize="10dp"-->
+<!--                            android:textStyle="italic" />-->
+<!--                    </RelativeLayout>-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_alignParentTop="true"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentTop="true"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:orientation="vertical">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:text="@string/New2b" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:layout_marginTop="33dp"-->
+<!--                            android:text="@string/New2c" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:layout_marginTop="50dp"-->
+<!--                            android:text="@string/New2d" />-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="60dp"-->
+<!--                            android:src="@drawable/newimage2" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="255dp"-->
+<!--                            android:text="@string/New2e" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="273dp"-->
+<!--                            android:text="@string/New2f" />-->
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="13dp"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="20dp"-->
+<!--                            android:layout_height="20dp"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:src="@drawable/newlike_comment" />-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="20dp"-->
+<!--                            android:layout_height="20dp"-->
+<!--                            android:layout_marginLeft="25dp"-->
+<!--                            android:src="@drawable/newlove" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="50dp"-->
+<!--                            android:text="100" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:text="@string/New2h" />-->
+
+<!--                    </RelativeLayout>-->
+<!--                </LinearLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:paddingLeft="5dp"-->
+<!--                    android:paddingRight="5dp">-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button7"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_alignParentLeft="true"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@null"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/likes"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="like"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        app:iconPadding="5dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button8"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/ic_stat_name"-->
+<!--                        android:paddingLeft="10dp"-->
+<!--                        android:text="Comment"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:visibility="visible"-->
+<!--                        app:iconPadding="2dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button9"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_alignParentRight="true"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/ic_share_name"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Share"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        app:iconPadding="5dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--                </RelativeLayout>-->
+
+
+
+<!--                &lt;!&ndash; TODO: Update blank fragment layout 4 &ndash;&gt;-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentLeft="true"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="50dp"-->
+<!--                            android:layout_height="60dp"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:src="@drawable/newlogo3" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="55dp"-->
+<!--                            android:layout_marginTop="20dp"-->
+<!--                            android:text="@string/New3"-->
+<!--                            android:textSize="40px"-->
+<!--                            android:textStyle="bold" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="130dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="55dp"-->
+<!--                            android:layout_marginTop="45dp"-->
+<!--                            android:text="@string/New3a"-->
+<!--                            android:textSize="10dp"-->
+<!--                            android:textStyle="italic" />-->
+<!--                    </RelativeLayout>-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_alignParentTop="true"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentTop="true"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:orientation="vertical">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:text="@string/New3b" />-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="40dp"-->
+<!--                            android:layout_height="20dp"-->
+<!--                            android:layout_marginLeft="120dp"-->
+<!--                            android:src="@drawable/neweed3" />-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="5dp"-->
+<!--                            android:src="@drawable/newimage3" />-->
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="20dp"-->
+<!--                            android:layout_height="20dp"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:src="@drawable/newlike_comment" />-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="20dp"-->
+<!--                            android:layout_height="20dp"-->
+<!--                            android:layout_marginLeft="25dp"-->
+<!--                            android:src="@drawable/newlove" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="50dp"-->
+<!--                            android:text="100" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:text="@string/New3c" />-->
+
+<!--                    </RelativeLayout>-->
+<!--                </LinearLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:paddingLeft="5dp"-->
+<!--                    android:paddingRight="5dp">-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button10"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_alignParentLeft="true"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@null"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/likes"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="like"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        app:iconPadding="5dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button11"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/ic_stat_name"-->
+<!--                        android:paddingLeft="10dp"-->
+<!--                        android:text="Comment"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:visibility="visible"-->
+<!--                        app:iconPadding="2dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button12"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_alignParentRight="true"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/ic_share_name"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Share"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        app:iconPadding="5dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--                </RelativeLayout>-->
+
+<!--                &lt;!&ndash; TODO: Update blank fragment layout 5 &ndash;&gt;-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentLeft="true"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="50dp"-->
+<!--                            android:layout_height="60dp"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:src="@drawable/newlogo4" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="55dp"-->
+<!--                            android:layout_marginTop="20dp"-->
+<!--                            android:text="@string/New4"-->
+<!--                            android:textSize="40px"-->
+<!--                            android:textStyle="bold" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="130dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="55dp"-->
+<!--                            android:layout_marginTop="50dp"-->
+<!--                            android:text="@string/New4a"-->
+<!--                            android:textSize="10dp"-->
+<!--                            android:textStyle="italic" />-->
+<!--                    </RelativeLayout>-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_alignParentTop="true"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentTop="true"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:orientation="vertical">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:text="@string/New4b" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:layout_marginTop="20dp"-->
+<!--                            android:text=" Thôi đập rồi chǎng? một trái tim-->
+<!--                                    \n Đỏ như sao Hoả, sáng sao Kim!-->
+<!--                                    \n Muốn oà nức nở bên em nhỏ-->
+<!--                                    \n Nước mắt ta đành nuốt, lặng im." />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:layout_marginTop="90dp"-->
+<!--                            android:text=" \n Cứ nghĩ: Hồn thiêng đang tái sinh-->
+<!--                                       \n Ngôi sao ấy lặn, hoá bình minh-->
+<!--                                       \n Cơn mưa vừa tạnh. Ba Đình nắng-->
+<!--                                       \n Bác đứng trên kia, vẫy gọi mình.-->
+<!--                                       \n\nSúng hãy gầm lên, nén xót đau-->
+<!--                                       \n Hãy lau ráo lệ, ngẩng cao đầu!-->
+<!--                                       \n Chỉ xin nhớ để lời đêm trước-->
+<!--                                       \n Đốt pháo hoa mừng, đến lễ sau." />-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="200dp"-->
+<!--                            android:src="@drawable/newimage4" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="720dp"-->
+<!--                            android:text="@string/New4c" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="770dp"-->
+<!--                            android:text="@string/New4d" />-->
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="13dp"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="20dp"-->
+<!--                            android:layout_height="20dp"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:src="@drawable/newlike_comment" />-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="20dp"-->
+<!--                            android:layout_height="20dp"-->
+<!--                            android:layout_marginLeft="25dp"-->
+<!--                            android:src="@drawable/newlove" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="50dp"-->
+<!--                            android:text="1.900k" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:text="@string/New4e" />-->
+
+<!--                    </RelativeLayout>-->
+<!--                </LinearLayout>-->
+<!--                &lt;!&ndash;      TODO:     comment&ndash;&gt;-->
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:paddingLeft="5dp"-->
+<!--                    android:paddingRight="5dp">-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button13"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_alignParentLeft="true"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@null"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/likes"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="@string/like"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        app:iconPadding="5dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button14"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/ic_stat_name"-->
+<!--                        android:paddingLeft="10dp"-->
+<!--                        android:text="Comment"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:visibility="visible"-->
+<!--                        app:iconPadding="2dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button15"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_alignParentRight="true"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:backgroundTint="@color/Silver"-->
+<!--                        android:drawableLeft="@drawable/ic_share_name"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Share"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        app:iconPadding="5dp"-->
+<!--                        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--                </RelativeLayout>-->
+
+<!--            </LinearLayout>-->
+
+<!--        </androidx.core.widget.NestedScrollView>-->
+
+<!--    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>-->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

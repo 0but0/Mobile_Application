@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/container">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/facebooklogo"
+        android:layout_above="@+id/TextEmailR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:id="@+id/TextEmailR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50px"
+        android:ems="12"
+        android:hint="@string/Email"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/TextPasswordR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/Pass"
+        android:layout_marginBottom="50px"
+        android:layout_below="@+id/TextEmailR"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="12"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/TextCPasswordR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextPasswordR"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"
+        android:ems="12"
+        android:hint="@string/cPass"
+        android:inputType="textPassword"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/TextCPasswordR"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/buttonRegis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextCPasswordR"
+            android:layout_marginRight="30px"
+            android:background="@color/blue"
+            android:text="@string/Regis" />
+        <Button
+            android:id="@+id/buttonLogin1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextCPasswordR"
+            android:background="@color/blue"
+            android:text="@string/Login" />
+    </LinearLayout>
+
+</RelativeLayout>

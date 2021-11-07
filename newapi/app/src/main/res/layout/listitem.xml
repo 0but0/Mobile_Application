@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:scaleType="centerCrop"
+                android:transitionName="imageView"
+                tools:ignore="UnusedAttribute" />
+
+            <ProgressBar
+                android:id="@+id/Progressbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/title"
+                android:layout_alignLeft="@+id/title"
+                android:layout_alignTop="@+id/days"
+                android:layout_alignEnd="@+id/days"
+                android:layout_alignRight="@+id/days"
+                android:ellipsize="end"
+                android:gravity="bottom"
+                android:maxLines="1"
+                android:text="Author"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <FrameLayout
+                android:id="@+id/days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/design_default_color_background"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/publishedAt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="1dp"
+                    android:text="10 November 2021" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Title"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descriptions"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@id/title"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:text="desc"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/source"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@id/descriptions"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:text="Source"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@id/descriptions"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@+id/source"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:text="Time"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
